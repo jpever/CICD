@@ -2,6 +2,7 @@ Method 1 - use the same keys on the servers:
 
 Convert the keys to openssh format and upload the private keys to the servers. When you ssh to the destination host, specify the private key file:
 
+Method 2 -
 ssh -i mykey.pem private.ip.of.other.server
 Method 2 - Create new keys
 
